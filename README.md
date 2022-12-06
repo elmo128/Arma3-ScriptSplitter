@@ -32,8 +32,10 @@ parameters:
     	};
 ```
 4)  A file holding the header for all Functions, eg. the license of the
-    original file and some includes eg. license.txt this is the content
-    of license.txt<br />
+    original file and some includes eg. license.txt 
+    ```
+    this is the content of license.txt
+    ```
 
 5)  The output directory<br />
 
@@ -42,10 +44,10 @@ d:/mymod.sqf d:/license.txt d:/mymodLib/**
 
 The following files and directories will be created:
 ```
-**D:/mymod/**
+D:/mymodLib/
 fn_function_1.sqf: 
 this is the content of license.txt
-// Function extracted with Arma-ScriptSplitter: XY\_fnc\_function\_1
+// Function extracted with Arma-ScriptSplitter: XY_fnc_function_1
 // Source File: "mymod.sqf"
 
     ABC;
