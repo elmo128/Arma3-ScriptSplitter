@@ -40,6 +40,8 @@
 
 int main(int argc, char* argv[])
 {
+    std::cout << "Arma3 - ScriptSplitter v1.0.0\n";
+    std::cout << "Visit https://github.com/elmo128/Arma3-ScriptSplitter for further information\n\n";
     std::cout << "Processing input...!" << std::endl;
     
     if (argc == 6)
@@ -55,12 +57,18 @@ int main(int argc, char* argv[])
         fp.Split_Script_to_functionsLibrary(argv[3], argv[4]);
 
         std::cout << "Complete!" << std::endl;
-        //return EXIT_SUCCESS;
     }
     else
     {
         std::cout << "Input invalid! Aborted" << std::endl;
         std::cout << "Parameters: <Function Tag> <Functions class name> <File to process> <Header File> <Output directory>" << std::endl;
-        //return EXIT_FAILURE;
+
+        std::cout << "Arma3 - ScriptSplitter v1.0.0\n";
+        std::cout << "Visit https://github.com/elmo128/Arma3-ScriptSplitter for further information\n\n";
+        std::cout << "MIT License:\n";
+        std::cout << "Copyright(c) 2022 elmo128(elmo128@protonmail.com)\n";
+        std::cout << "Permission is hereby granted, free of charge, to any person obtaining a copy of this softwareand associated documentation files(the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and /or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:";
+        std::cout << "The above copyright noticeand this permission notice shall be included in all copies or substantial portions of the Software.";
+        std::cout << "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.";
     }
-};
+}
