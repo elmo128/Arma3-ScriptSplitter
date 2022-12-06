@@ -39,7 +39,7 @@ parameters:
 
 5)  The output directory<br />
 
-by using the example commandline: **Arma-ScriptSplitter.exe XY MyMod
+by using the example commandline: **Arma3-ScriptSplitter.exe XY MyMod
 d:/mymod.sqf d:/license.txt d:/mymodLib/**
 
 The following files and directories will be created:
