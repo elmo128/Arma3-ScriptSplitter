@@ -19,6 +19,8 @@ parameters:
 2)  The name of the function Category*<br />
 
 3)  A file having a structure similiar to:<br />
+    ATTENTION: the opening bracket must be in the same 
+    line as the function name and equal sign
 ```
     mymod.sqf:
     	XY_function_1 = {
