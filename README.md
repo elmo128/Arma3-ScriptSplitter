@@ -85,8 +85,8 @@ the program.
 
 Additional manual tasks must be perfomed to make the newly created
 functions library work, eg. registering it in description.ext, checking
-if all functions have been extracted, adding pre-/postinit, filepath
-(file=) etc.
+if all functions have been extracted, adding additional parameters like pre-/postinit, 
+filepath (file=), etc.
 
 Further reading:
 https://community.bistudio.com/wiki/Arma_3:_Functions_Library
