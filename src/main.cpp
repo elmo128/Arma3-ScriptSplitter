@@ -41,7 +41,7 @@
 int main(int argc, char* argv[])
 {
 
-    std::cout << "Arma3-ScriptSplitter v0.91, Copyright(c) 2022-2023, elmo128" << std::endl;
+    std::cout << "Arma3-ScriptSplitter v0.91; Copyright(c) 2022-2023, elmo128; downloaded from: https://github.com/elmo128/Arma3-ScriptSplitter" << std::endl;
 
     if (argc == 6)
     {

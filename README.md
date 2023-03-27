@@ -22,7 +22,7 @@ parameters:
 2)  The name of the function Category*<br />
 
 3)  A file having a structure similiar to:<br />
-    ATTENTION: the opening bracket must be in the same 
+    Attention: the opening bracket must be in the same 
     line as the function name and equal sign
 ```
     mymod.sqf:
@@ -42,7 +42,7 @@ parameters:
     this is the content of license.txt
     ```
 
-5)  The output directory<br />
+5)  The output directory<br /> Attention: The trailing slash is required!
 
 by using the example commandline: **Arma3-ScriptSplitter.exe XY MyMod
 d:/mymod.sqf d:/license.txt d:/mymodLib/**
@@ -80,9 +80,8 @@ cfgFunctions.hpp:
         class function_3 {};
     };
 ```
-Make sure neither the directory, nor the files exist before executing
-the program, else you might ending up breaking files, as there are few
-checks right now.
+Make sure neither the target directory, nor the files exist before executing
+the program.
 
 Additional manual tasks must be perfomed to make the newly created
 functions library work, eg. registering it in description.ext, checking
@@ -91,3 +90,6 @@ if all functions have been extracted, adding pre-/postinit, filepath
 
 Further reading:
 https://community.bistudio.com/wiki/Arma_3:_Functions_Library
+
+Downloaded from: 
+https://github.com/elmo128/Arma3-ScriptSplitter
