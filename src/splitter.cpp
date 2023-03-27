@@ -100,21 +100,21 @@ bool Fsplitter::Split_Script_to_functionsLibrary(const std::filesystem::path &Fi
 
                     // search if function name in line
                     std::smatch matchresultsA;
-                    std::regex fnc_regex("(?:^|(?:[.!?]\s))([a-zA-Z0-9_]+)([^={]*)([=])", std::regex::icase);
+                    std::regex fnc_regex("(?:^|(?:[.!?]\\s))([a-zA-Z0-9_]+)([^={]*)([=])", std::regex::icase);
                     if (std::regex_search(workingline, matchresultsA, fnc_regex))
                     {
                         std::string resultsA = matchresultsA.str();
 
                         //extract functionname
                         std::smatch matchresultsB;
-                        std::regex fnc_name_extract_regex("(?:^|(?:[.!?]\s))([a-zA-Z0-9_]+)", std::regex::icase);
+                        std::regex fnc_name_extract_regex("(?:^|(?:[.!?]\\s))([a-zA-Z0-9_]+)", std::regex::icase);
                         if (std::regex_search(workingline, matchresultsB, fnc_name_extract_regex))
                         {
                             resultsB = matchresultsB.str();
                             results = resultsB;
                             // check for tag
                             std::smatch matchresultsC;
-                            std::string tagCheck_regex_tmpstr = "(?:^|(?:[.!?]\s))^";
+                            std::string tagCheck_regex_tmpstr = "(?:^|(?:[.!?]\\s))^";
                             tagCheck_regex_tmpstr += fnc_tag_;
                             std::regex fnc_tagCheck_regex(tagCheck_regex_tmpstr, std::regex::icase);
                             if (std::regex_search(results, matchresultsC, fnc_tagCheck_regex))
