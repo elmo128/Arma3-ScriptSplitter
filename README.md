@@ -1,8 +1,8 @@
 # Arma3/sqf-ScriptSplitter
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Handle Release](https://github.com/elmo128/Arma3-ScriptSplitter/actions/workflows/msbuild.yml/badge.svg)](https://github.com/elmo128/Arma3-ScriptSplitter/actions/workflows/msbuild.yml)
-[![Release](https://github.com/elmo128/Arma3-ScriptSplitter/actions/workflows/release.yml/badge.svg)](https://github.com/elmo128/Arma3-ScriptSplitter/actions/workflows/release.yml)
+[![MSBuild](https://github.com/elmo128/Arma3-ScriptSplitter/actions/workflows/msbuild.yml/badge.svg?event=push)](https://github.com/elmo128/Arma3-ScriptSplitter/actions/workflows/msbuild.yml)
+[![Handle Release](https://github.com/elmo128/Arma3-ScriptSplitter/actions/workflows/release.yml/badge.svg)](https://github.com/elmo128/Arma3-ScriptSplitter/actions/workflows/release.yml)
 
 Tool to help splitting files containing several sqf functions into a
 functions library.
